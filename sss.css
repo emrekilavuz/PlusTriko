@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+height:100%;
+width:100%;
+font-family: 'Poppins', sans-serif;
+color: #222;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.carousel-inner img {
+width:100%;
+max-height:150%;
+  }
+
+.nav-item > a {
+color: white;
+}
+
+.carousel-caption > h3 {
+color: red;
+}
+
+#white {
+color: white;
+}
+
+#black {
+color: white;
+}
+
+.jumbotron {
+padding:1rem;
+border-radius:0;
+}
+
+.padding {
+padding-bottom: 2rem;
+}
+
+.welcome {
+ width:75%;
+ margin: 0 auto;
+ padding-top:2rem;
+}
+
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width:95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+footer{
+	background-color:#3f3f3f;
+	color:#d5d5d5;
+	padding-top:2rem;
+
+}
+hr.light{
+	border: 1px solid #d5d5d5;
+	width:75%;
+}
+
+iframe {
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  iframe {
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    height: 50%;
+  }
+  
+  .carousel-caption h3{
+      font-size: .9rem;
+  }
+  
+  .welcome {
+      width: 100%;
+  }
+}
