@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+* {
+  box-sizing: border-box;
+}
+
 html, body {
 height:100%;
 width:100%;
@@ -78,6 +82,10 @@ iframe {
   iframe {
     height: 75%;
   }
+
+  .gal-foto{
+    width: 600px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -91,5 +99,9 @@ iframe {
   
   .welcome {
       width: 100%;
+  }
+
+  .gal-foto {
+    width: 1000px;
   }
 }
